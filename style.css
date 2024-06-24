@@ -459,42 +459,68 @@ span{
 
 
 
-
-
-@media (max-width: 120px){
-    html{
+@media (max-width: 1000px) {
+    html {
         font-size: 55%;
     }
-}
 
-@media (max-width: 991px){
-    .header{
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img {
+        order: -1; /* This puts the image above the text */
+        margin-bottom: 20px;
+    }
+
+    .about-content {
+        margin-right: 0;
+    }
+
+    /* Header adjustments */
+    .header {
         padding: 2rem 3%;
     }
 
-    section{
+    /* Section padding adjustments */
+    section {
         padding: 10rem 3%;
     }
 
-    .Services{
+    .Services {
         padding: 7rem;
     }
 
-    .protfolio{
+    .protfolio {
         padding-bottom: 7rem;
     }
 
-    .content{
+    .content {
         min-height: auto;
     }
 
-    .footer{
+    .footer {
         padding: 2rem 3%;
     }
 
-}
+    /* Home section adjustments */
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media (max-width: 786px) {
+    .Home-img {
+        order: -1; /* This puts the image above the text */
+        margin-bottom: 20px;
+    }
+
+    .home-content {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    /* Navbar adjustments */
     #menu-icon {
         display: block;
         cursor: pointer;
@@ -529,25 +555,24 @@ span{
         background-color: var(--main-color);
         color: var(--bg-color);
     }
-}
 
-@media (max-width: 617px){
-    .protfolio-container{
+    /* Portfolio adjustments */
+    .protfolio-container {
         grid-template-columns: 1fr;
     }
 
-    .home-img img{
+    .home-img img {
         width: 100vh;
-        margin-top:4rem;
+        margin-top: 4rem;
     }
-}
 
-@media (max-width:  450px){
-    html{
+    /* Form input adjustments */
+    .content form .input-Box input {
+        width: 100%;
+    }
+
+    /* Smaller screen font adjustments */
+    html {
         font-size: 50%;
-    }
-
-    .content form .input-Box input{
-        width: 100vh;
     }
 }

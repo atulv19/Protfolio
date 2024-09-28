@@ -12,8 +12,8 @@
 }
 
 :root{
-    background-color: #191f36;
-    --snd-bg-color: #262b40;
+    background-color: #213619;
+    --snd-bg-color: #264026;
     --text-color: #fff;
     --main-color: #59b2f4;
 }
@@ -206,6 +206,7 @@ span{
 
 .Services h1 {
     text-align: center;
+    
     font-size: 5rem;
     color: var(--text-color);
 }
@@ -591,3 +592,18 @@ span{
         font-size: 50%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
